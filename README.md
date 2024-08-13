@@ -19,9 +19,8 @@ This project is designed to facilitate the digital transition for a popular Rest
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js (version X.X.X)
-- MySQL (version X.X.X)
+**Clone the Repository:**
+   ```bash
+   [git clone https://github.com/your-username/restaurant-chain-digital-transition.git](https://github.com/AbdallhShehap/restaurantSystem.git)
 
 
