@@ -1,0 +1,53 @@
+.inform-form-container{
+    width: 100%;
+    height: auto;
+
+}
+
+.inform-form{
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.landmark-btn{
+    display: flex;
+    align-items: center;
+    transform: translate(0%,10%);
+}
+
+.landmark-list{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.error-border {
+    border: 2px solid red;
+  }
+  
+  .error-text {
+    color: red;
+    font-size: 0.9rem;
+  }
+
+  .error-message{
+    color: red;
+    font-size: small;
+  }
+  
+
+
+@media (min-width: 1920px) {
+    
+    .inform-form{
+        width: 1500px;
+     
+    }
+
+}

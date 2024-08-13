@@ -1,0 +1,69 @@
+.branches-container {
+  width: 100%;
+  height: 100vh;
+
+}
+
+.branches-form {
+  width: 70%;
+  height: auto;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.branches-btn-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px;
+}
+
+.branches-btn {
+  position: relative;
+  background-color: white;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+.btn-add-branch{
+  width: 70% ;
+  margin:auto;
+
+}
+
+
+@media (max-width: 545px) {
+  
+  .branches-container {
+    width: 100%;
+    height: auto;
+  
+  }
+
+  .branches-form {
+    height: auto;
+  }
+
+}
+
+@media (min-width: 1920px) {
+  
+  .branches-form {
+      width: 1500px;
+   
+  }
+  .btn-add-branch{
+    width: 1500px;
+ 
+}
+
+}

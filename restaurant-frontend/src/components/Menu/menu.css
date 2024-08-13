@@ -1,0 +1,58 @@
+.menu-Restaurant{
+    height: auto;
+    width: 100%;
+     background-color: #032541;
+ 
+ }
+ 
+ .menu-Restaurant-details{
+     display: flex;
+     justify-content: space-between;
+   padding: 7px;
+ }
+
+ .right-side-menu{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    
+ }
+
+ .hamburger-menu{
+  display: none;
+}
+
+@media (max-width:1200px) {
+
+  .right-side-menu{
+    display: none;
+  }
+
+  .hamburger-menu{
+      display: flex;
+      justify-content: end;
+      align-content: center;
+      width: 100%;
+      height: 100%;
+  }
+
+  .hamburger-menu img{
+      height: 50px;
+      width: 50px;
+      padding-top: 7px;
+  }
+}
+
+
+.menu-Restaurant .Link {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 1750px) {
+  .menu-Restaurant-details{
+      width: 1515px;
+      margin: auto;
+  }
+  
+}

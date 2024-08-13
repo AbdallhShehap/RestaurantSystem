@@ -1,0 +1,16 @@
+.btn-submit{
+    width: 70% ;
+    margin:auto;
+
+}
+
+
+
+@media (min-width: 1920px) {
+    
+    .btn-submit{
+        width: 1500px;
+     
+    }
+
+}

@@ -1,0 +1,54 @@
+.menu-form-container {
+    width: 100%;
+    height: auto;
+
+}
+
+.menu-form {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.items-btn-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.items-btn {
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-menu {
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.serving-times-input {
+    margin-top: 10px;
+}
+
+
+
+@media (min-width: 1920px) {
+    
+    .menu-form {
+        width: 1500px;
+     
+    }
+
+}
